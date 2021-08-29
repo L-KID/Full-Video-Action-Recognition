@@ -7,11 +7,6 @@ Not all video frames are equally informative for recognizing an action. It is co
 This repo contains the toy dataset Move4MNIST example images and the PyTorch code of [No frame left behind: Full Video Action Recognition](https://arxiv.org/abs/2103.15395). Its implementation is based on [TSM](https://github.com/mit-han-lab/temporal-shift-module).
 
 ![framework](https://github.com/L-KID/Full-Video-Action-Recognition/blob/fix_branch/images/fig1_cvpr21.pdf_tex.pdf)
-<object data="https://github.com/L-KID/Full-Video-Action-Recognition/blob/fix_branch/images/fig1_cvpr21.pdf_tex.pdf" type="application/pdf" width="700px" height="700px">
-    <embed src="https://github.com/L-KID/Full-Video-Action-Recognition/blob/fix_branch/images/fig1_cvpr21.pdf_tex.pdf">
-        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="https://github.com/L-KID/Full-Video-Action-Recognition/blob/fix_branch/images/fig1_cvpr21.pdf_tex.pdf">Download PDF</a>.</p>
-    </embed>
-</object>
 
 ## Prerequisites
 
