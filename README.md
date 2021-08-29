@@ -6,7 +6,7 @@ Not all video frames are equally informative for recognizing an action. It is co
 
 This repo contains the toy dataset Move4MNIST example images and the PyTorch code of [No frame left behind: Full Video Action Recognition](https://arxiv.org/abs/2103.15395). Its implementation is based on [TSM](https://github.com/mit-han-lab/temporal-shift-module).
 
-![framework]()
+![framework](https://github.com/L-KID/Full-Video-Action-Recognition/blob/fix_branch/images/fig1_cvpr21.pdf_tex.pdf)
 
 ## Prerequisites
 
@@ -68,6 +68,7 @@ All methods in this table use ResNet50 backbone, which is pre-trained on ImageNe
 ## Training
 
 We provide an example to train our method on the toy dataset Move4MNIST with pre-trained ResNet18:
+
 	```
 	python3 main.py movingmnist RGB \
 	     --arch resnet18 --num_segments 16 \
@@ -79,6 +80,7 @@ We provide an example to train our method on the toy dataset Move4MNIST with pre
 ## Testing
 
 To test our method on the toy dataset Move4MNIST:
+
 	```
 	python3 main.py --evaluate movingmnist RGB \
 	     --arch resnet18 --num_segments 16 \
