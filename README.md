@@ -69,7 +69,7 @@ All methods in this table use ResNet50 backbone, which is pre-trained on ImageNe
 
 We provide an example to train our method on the toy dataset Move4MNIST with pre-trained ResNet18:
 
-	```
+	```bash
 	python3 main.py movingmnist RGB \
 	     --arch resnet18 --num_segments 16 \
 	     --gd 20 --lr 0.001 --epochs 40 \
@@ -81,7 +81,7 @@ We provide an example to train our method on the toy dataset Move4MNIST with pre
 
 To test our method on the toy dataset Move4MNIST:
 
-	```
+	```bash
 	python3 main.py --evaluate movingmnist RGB \
 	     --arch resnet18 --num_segments 16 \
 	     --batch-size 16 -j 16 --consensus_type=avg \
